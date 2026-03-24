@@ -17,7 +17,7 @@ const MovieCard = ({ movie }: { movie: Movie }) => {
         />
       </Link>
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2 uppercase">{movie.title}</div>
+        <div className="font-semibold text-xl mb-2 uppercase">{movie.title}</div>
         <p className="text-gray-700 text-base line-clamp-3">
           {movie.description}
         </p>
