@@ -2,7 +2,7 @@
 import { Movie } from "@/types/movie";
 import { useState } from "react";
 
-const url = process.env.BACKEND_URL || "http://localhost:3001";
+const url = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:3001";
 
 interface AddMovieProps {
   title: string;
