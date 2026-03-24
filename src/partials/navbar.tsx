@@ -9,8 +9,8 @@ export function Navbar() {
       </div>
       <div className="space-x-4">
         {/* <a href="#" className="hover:underline">Home</a>
-            <a href="#" className="hover:underline">Movies</a>
-            <a href="#" className="hover:underline">About</a> */}
+            <a href="#" className="hover:underline">Movies</a>*/}
+            <a href="/movies/add" className="hover:underline bg-green-700 text-gray-50 px-6 py-2 rounded-md uppercase">Ajouter un film</a> 
       </div>
     </nav>
   );
