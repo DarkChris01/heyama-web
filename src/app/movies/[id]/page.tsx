@@ -17,7 +17,7 @@ const MovieDetail = () => {
     fetchMovie(id as string);
   }, [id]);
 
-  if (loading) return <div className="text-center mt-10">Loading...</div>;
+  if (loading) return <div className="text-center mt-10">Please wait while loading...</div>;
   if (!selectedMovie)
     return <div className="text-center mt-10">Film introuvable</div>;
 
